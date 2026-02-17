@@ -1,4 +1,4 @@
-public class TipoPrimitivo {
+public class Aula02TiposPrimitivos {
     static void main() {
         // int, double, float, char, byte, short, long, boolean
         int idade = (int) 10000000000L;

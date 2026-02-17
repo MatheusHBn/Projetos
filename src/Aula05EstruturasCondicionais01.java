@@ -1,4 +1,4 @@
-public class Aula05EstruturasCondicionais {
+public class Aula05EstruturasCondicionais01 {
     static void main() {
         // aprendendo como o if funciona
         int age = 14;
