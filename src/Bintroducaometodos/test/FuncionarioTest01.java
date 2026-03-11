@@ -9,6 +9,6 @@ public class FuncionarioTest01 {
         funcionario.nome = "Thiago";
         funcionario.idade = 54;
         funcionario.Dados();
-        funcionario.MediaSalario(5642,324,2123);
+        funcionario.MediaSalario();
     }
 }

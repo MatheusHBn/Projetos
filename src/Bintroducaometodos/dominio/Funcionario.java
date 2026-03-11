@@ -7,14 +7,10 @@ public class Funcionario {
     public String nome;
     public int idade;
 
-
-
-
     public void Dados() {
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
     }
-
 
     public void MediaSalario(double... salario) {
         double soma = 0;
@@ -26,13 +22,16 @@ public class Funcionario {
             numSalario01 += numSalario02;
             System.out.print("Salário " + numSalario01 + " : " + salarios + " | ");
         }
+
         double soma01 = 0;
         double media01 = 0;
         for (double sal : salario) {
+            if (salario == null){
+               return;
+            }
             soma01 += sal;
             media01 = soma01 / salario.length;
         }
         System.out.print("\nMédia dos Salários: " + media01);
-
     }
 }
