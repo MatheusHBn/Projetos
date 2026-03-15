@@ -1,4 +1,4 @@
-package Eblocosinicialização.dominio;
+package Eblocosinicializacao.dominio;
 
 public class Computadores {
     private String placaVideo;

@@ -1,6 +1,6 @@
-package Eblocosinicialização.teste;
+package Eblocosinicializacao.teste;
 
-import Eblocosinicialização.dominio.Computadores;
+import Eblocosinicializacao.dominio.Computadores;
 
 public class ComputadoresTest {
     static void main() {
