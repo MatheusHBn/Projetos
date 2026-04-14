@@ -3,13 +3,24 @@ package Hheranca.dominio;
 public class Funcionario extends Pessoa {
     private double salario;
 
+    static {
+        System.out.println("dentro do estatico");
+    }
+    {
+        System.out.println("Fora do estático");
+    }
+    {
+        System.out.println("Fora do estático");
+    }
+
     public Funcionario(String nome){
         super(nome);
+        System.out.println("Dentro do construtor funcionario");
     }
 
     public void imprime(){
-        System.out.println(this.salario);
         super.imprime();
+        System.out.println(this.salario);
     }
 
     public void relatorioPagamento(){

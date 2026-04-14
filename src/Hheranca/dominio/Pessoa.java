@@ -5,8 +5,20 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    static {
+        System.out.println("dentro do estatico");
+    }
+    {
+        System.out.println("Fora do estático");
+    }
+    {
+        System.out.println("Fora do estático");
+    }
+
+
     public Pessoa(String nome){
         this.nome = nome;
+        System.out.println("Dentro de construtor pessoa");
     }
 
     public void setNome(String nome){
