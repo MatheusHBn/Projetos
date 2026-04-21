@@ -1,3 +1,5 @@
+package A_exercicios;
+
 public class Exercicio02 {
     static void main() {
         // dado determinado salario, qual o valor que eu tenho que pagar de imposto( dados de 2020, taxas dos paises baixos)

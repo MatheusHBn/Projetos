@@ -1,3 +1,5 @@
+package A_exercicios;
+
 public class Exercicio03 {
     static void main() {
         // Utilizando switch e dados os valores de 1 a 7, imprima se é dia útil ou final de semana

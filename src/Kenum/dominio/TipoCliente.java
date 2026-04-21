@@ -12,6 +12,15 @@ public enum TipoCliente {
         this.nomeJuridico = nomeJuridico;
     }
 
+      public static TipoCliente NomeJuridico(String nomeJuridico){
+        for (TipoCliente tipoCliente : values()){
+            if (tipoCliente.getNomeJuridico().equals(nomeJuridico)){
+                return tipoCliente;
+            }
+        }
+        return null;
+     }
+
     public int getVALOR() {
         return VALOR;
     }

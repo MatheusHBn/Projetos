@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula07Arrays03 {
     static void main() {
         //basicamente aprendendo a usar o array em for

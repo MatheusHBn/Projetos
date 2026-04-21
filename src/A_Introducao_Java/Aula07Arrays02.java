@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula07Arrays02 {
      static void main() {
          //byte, short, int, long, float e double, o valor inicial é = 0; no char é '/u000'; boolean é false; e String é null

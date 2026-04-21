@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula05EstruturasCondicionais01 {
     static void main() {
         // aprendendo como o if funciona

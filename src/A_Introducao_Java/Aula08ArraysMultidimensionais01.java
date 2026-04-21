@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula08ArraysMultidimensionais01 {
     static void main() {
         // entendendo sobre ararys dentro de arrays, ou seja, arrays multidimensionais

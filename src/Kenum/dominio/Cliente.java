@@ -4,9 +4,6 @@ public class Cliente {
     private String nome;
     private TipoCliente tipoCliente;
     private TipoPagamento tipoPagamento;
-    public enum TipoPagamento{
-        DEBITO, CREDITO
-    }
 
     public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;

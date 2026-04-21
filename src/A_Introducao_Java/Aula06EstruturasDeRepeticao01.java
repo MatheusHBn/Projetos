@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula06EstruturasDeRepeticao01 {
     static void main() {
         //while, do while, for

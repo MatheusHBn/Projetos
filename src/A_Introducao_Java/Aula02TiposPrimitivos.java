@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula02TiposPrimitivos {
     static void main() {
         // int, double, float, char, byte, short, long, boolean

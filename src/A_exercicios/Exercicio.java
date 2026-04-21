@@ -1,3 +1,5 @@
+package A_exercicios;
+
 public class Exercicio {
     public static void main(String[] args) {
         /*

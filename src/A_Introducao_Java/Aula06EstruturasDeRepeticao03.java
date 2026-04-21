@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula06EstruturasDeRepeticao03 {
     static void main() {
         // como o Continue funciona?

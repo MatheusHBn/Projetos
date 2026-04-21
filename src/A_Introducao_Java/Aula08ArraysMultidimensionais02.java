@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package A_Introducao_Java;
 
 public class Aula08ArraysMultidimensionais02 {
     //aprendendo sobre um mesmo array que cada parte dele pode ter outros arrays de tamanhos diferentes

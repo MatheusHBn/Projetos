@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula05EstruturasCondicionais02 {
     static void main() {
         // casos pra mais de uma condição

@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula05EstruturasCondicionais04 {
     static void main() {
         //Imprimir os dias da semana, considerando o 01 como domingo

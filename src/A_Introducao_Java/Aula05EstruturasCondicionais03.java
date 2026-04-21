@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula05EstruturasCondicionais03 {
     static void main() {
         // operador ternário

@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula04Operadores {
     static void main() {
         // vendo operadores: + - / *

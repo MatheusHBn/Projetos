@@ -1,3 +1,5 @@
+package A_Introducao_Java;
+
 public class Aula07Arrays01 {
     static void main() {
         //

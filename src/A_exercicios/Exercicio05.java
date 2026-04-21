@@ -1,3 +1,5 @@
+package A_exercicios;
+
 public class Exercicio05 {
     static void main() {
         // Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado

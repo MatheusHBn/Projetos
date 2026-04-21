@@ -3,7 +3,7 @@ package Bintroducaometodos.dominio;
 public class Calculadora {
     public void soma(){
         System.out.println(14+94);
-        System.out.println("Somei tudo tudo");
+        System.out.println("Somei tudo");
     }
     public void subtracao(){
         System.out.println(23-45);

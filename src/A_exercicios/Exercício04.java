@@ -1,3 +1,5 @@
+package A_exercicios;
+
 public class Exercício04 {
     static void main() {
         //imprimir todos os numeros pares ate 1M
