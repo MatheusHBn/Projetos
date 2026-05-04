@@ -12,7 +12,7 @@ public class ProdutoTest02 {
         System.out.println(produto.calcularImposto());
         System.out.println("---------------");
 
-        Produto produto2 = new Laranja("Verde", 20, "28/05/26");
+        Produto produto2 = new Laranja("Verde", 20);
         System.out.println(produto2.getNome());
         System.out.println(produto2.getValor());
         System.out.println(produto2.calcularImposto());
