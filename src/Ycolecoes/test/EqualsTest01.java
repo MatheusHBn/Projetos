@@ -1,6 +1,6 @@
-package Ycoleções.test;
+package Ycolecoes.test;
 
-import Ycoleções.dominio.Celular;
+import Ycolecoes.dominio.Celular;
 
 public class EqualsTest01 {
     static void main() {

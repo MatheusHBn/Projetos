@@ -1,4 +1,4 @@
-package Ycoleções.dominio;
+package Ycolecoes.dominio;
 
 public class Celular {
     private String numberSerial;
@@ -47,5 +47,13 @@ public class Celular {
     @Override
     public int hashCode() {
         return numberSerial == null ? 0 : this.numberSerial.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "Celular{" +
+                "numberSerial='" + numberSerial + '\'' +
+                ", marca='" + marca + '\'' +
+                '}';
     }
 }
