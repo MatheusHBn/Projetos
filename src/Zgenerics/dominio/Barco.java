@@ -11,4 +11,8 @@ public class Barco {
     public String toString() {
         return "Nome: " + this.nome;
     }
+
+    public String getNome() {
+        return nome;
+    }
 }
