@@ -1,6 +1,12 @@
 package Bintroducaometodos.dominio;
 
 public class Pessoa {
+
+    /*
+    Getters e Setters, são dois métodos onde você pode resgatar e definir as variáveis, e depois, conseguir fazer isso
+    com até mesmo modificadores privados(muito importante por questão de segurança)
+     */
+
     private String nome;
     private int idade;
 

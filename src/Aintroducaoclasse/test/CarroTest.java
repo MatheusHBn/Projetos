@@ -4,6 +4,13 @@ import Aintroducaoclasse.dominio.ExercicioCarro;
 
 public class CarroTest {
     static void main() {
+        /*
+        para inicializar um objeto, você pega o arquivo que você fez anteriormente, da um nome, e inicialia com new
+        e depois basta você colocar variavel.nome, variavel.idade, e adicionar ou mudar as características (se tiver com
+        o modificador de acesso public, mas jaja a gente chega la)
+         */
+
+
         ExercicioCarro carro = new ExercicioCarro();
         ExercicioCarro carro1 = new ExercicioCarro();
 

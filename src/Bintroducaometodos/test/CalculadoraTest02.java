@@ -4,6 +4,10 @@ import Bintroducaometodos.dominio.Calculadora;
 
 public class CalculadoraTest02 {
     static void main() {
+        /*
+        Aqui, você pode colocar duas variáveis como parâmetro
+         */
+
         Calculadora calculadora = new Calculadora();
         int num1 = 4;
         int num2 = 10;

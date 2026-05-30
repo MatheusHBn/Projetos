@@ -4,6 +4,11 @@ import Bintroducaometodos.dominio.Calculadora;
 
 public class CalculadoraTest03 {
     static void main() {
+        /*
+        E também é possível fazer métodos com arrays
+         */
+
+
         Calculadora calculadora = new Calculadora();
         int[] numeros = {23,56,76,323,435,653,323,4,667,8,899};
 

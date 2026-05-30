@@ -10,6 +10,11 @@ public class Aula07Arrays02 {
         nomes[2] = "Amanda";
         nomes[3] = "Raíssa";
 
+        /*
+        nesse for abaixo, é um dos jeitos de se ler uma array, pegando pelo nome da array + .length ( tem jeitos melhores
+        mas esse é um dos jeitos), o for vai passar pela array, imprimindo todos os valores
+         */
+
          for (int i = 0; i < nomes.length; i++) {
              System.out.println(nomes[i]);
          }

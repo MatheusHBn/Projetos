@@ -11,6 +11,11 @@ public class Aula07Arrays03 {
             System.out.println(i);
 
         }
+
+        /*
+        Aqui está um exemplo do outro jeito melhor de ser uma array, que é pelo ForEach, que é um jeito mais prático e com menos linhas de código
+         */
+
         for (int num:numeros02){
             System.out.println(num);
         }

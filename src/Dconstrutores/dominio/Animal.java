@@ -1,6 +1,11 @@
 package Dconstrutores.dominio;
 
 public class Animal {
+    /*
+    Construtores, são coisas que você meio que obriga o usuário a colocar para o objeto iniciar, como nome, idade etc
+     */
+
+
     private String raca;
     private String nome;
     private int idade;

@@ -2,6 +2,15 @@ package Bintroducaometodos.dominio;
 
 public class Calculadora {
     public void soma(){
+        /*
+        O que são métodos? basicamente é uma função que executam os códigos que você escreve, serve para economizar
+        linhas de código, e um exemplo de como criar, "public void funcao(){ codigo }" precisa ter o parênteses, e você
+        ainda pode passar parâmetros, ex: (int num1, int num2), que você utiliza os dois para definir oque vai acontecer
+        no código, e inclusive, passar objetos como parâmetros também é possivel
+        E praticamente não há limites do que se pode fazer com métodos, apenas a sua imaginação
+         */
+
+
         System.out.println(14+94);
         System.out.println("Somei tudo");
     }

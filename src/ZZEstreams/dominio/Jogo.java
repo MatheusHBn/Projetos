@@ -7,10 +7,16 @@ import java.util.Objects;
 public class Jogo {
     private String name;
     private double price;
+    private Categoria categoria;
 
     public Jogo(String name, double price) {
         this.name = name;
         this.price = price;
+    }
+
+    public Jogo(String name, double price, Categoria categoria) {
+        this(name, price);
+        this.categoria = categoria;
     }
 
     public String getName() {
@@ -21,11 +27,17 @@ public class Jogo {
         return this.price;
     }
 
+    public Categoria getCategoria() {
+
+        return categoria;
+    }
+
     @Override
     public String toString() {
         return "Jogo{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
+                ", categoria=" + categoria +
                 '}';
     }
 

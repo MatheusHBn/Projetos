@@ -2,7 +2,7 @@ package A_Introducao_Java;
 
 public class Aula05EstruturasCondicionais04 {
     static void main() {
-        //Imprimir os dias da semana, considerando o 01 como domingo
+        // Imprimir os dias da semana, considerando o 01 como domingo, usando switch
         byte dia = 5;
         // só pode colocar char, int, byte, short, enum, String
         switch (dia){
