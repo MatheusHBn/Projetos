@@ -4,6 +4,9 @@ import Aintroducaoclasse.dominio.Estudante;
 
 public class EstudanteTest02 {
     static void main() {
+        /*
+        Tem como você inicializar mais de um objeto, só não confundir o nome das variáveis
+         */
         Estudante estudante = new Estudante();
         Estudante estudante2 = new Estudante();
 
