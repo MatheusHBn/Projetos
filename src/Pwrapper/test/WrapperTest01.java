@@ -2,6 +2,16 @@ package Pwrapper.test;
 
 public class WrapperTest01 {
     static void main() {
+        /*
+        Wrappers, são os tipos primitivos, mas em objetos, então sempre que ver um tipo primitivo em letra
+        maiúscula, é um objeto, e a mesma escrita (com exceção de int, que vira Integer, e char, que vira
+        Character)
+
+        A diferença dos tipos primitivos para Wrappers é:
+        1 - Collections: em collections, não pode usar tipos primitivos para fazer uma lista, queue, etc.
+        2 - Métodos: como são objetos, os Wrappers tem metodos bem úteis, como: .parseInt(); .doubleValue(); etc.
+        3 - Permite valor núlo: nos tipos primitivos, não pode: int idade = null; já nos Wrappers pode: Integer idade = null;
+         */
         byte byteP = 1;
         short shortP = 1;
         int intP = 1;
