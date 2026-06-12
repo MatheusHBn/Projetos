@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class StreamTest04 {
+
+    /*
+    Aqui tem uma Stream interessante, sendo o flatMap, ela "achata" estruturas aninhadas (elementos colocados uns dentro
+    dos outros, criando níveis)
+     */
     static void main() {
         List<List<String>> pessoasGoogle = new ArrayList<>();
         List<String> desenvolvedoresGoogle = List.of("Matheus", "Luis");

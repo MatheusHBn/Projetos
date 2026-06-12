@@ -5,6 +5,9 @@ import Kenum.dominio.TipoCliente;
 import Kenum.dominio.TipoPagamento;
 
 public class ClienteTest01 {
+    /*
+    Quando for utilizar uma constante, só adicionar o . depois da variável, e pronto
+     */
     public static void main(String[] args){
         Cliente cliente1 = new Cliente("Matheus", TipoCliente.PESSOA_FISICA, TipoPagamento.DEBITO);
         Cliente cliente2 = new Cliente("Thiago", TipoCliente.PESSOA_JURIDICA, TipoPagamento.CREDITO);

@@ -1,6 +1,9 @@
 package Qstring.test;
 
 public class StringPerformanceTest01 {
+    /*
+    Esse é um teste de desempenho, onde podemos ver tamanha diferença entre a "string" e stringbuilder
+     */
     static void main() {
         long inicio = System.currentTimeMillis();
         cocatenarString(100900);

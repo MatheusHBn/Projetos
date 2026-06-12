@@ -5,7 +5,15 @@ import java.util.Calendar;
 import java.util.Locale;
 
 public class LocaleTest01 {
+
     static void main() {
+        /*
+        Locale, usado para representar regiões e idiomas
+        Ele basicamente como fica a moeda de outros países, faz a formatação de datas em outros países,
+        formatação de números, etc.
+        E dá um minierro ali em baixo porque mudou como você inicializa ele, então ao invés de:
+        new Locale(); você tem que usar Locale.of();
+         */
         Locale locale = new Locale("it", "IT");
         Locale localeSuica = new Locale("it", "CH");
         Locale localeIndia = new Locale("hi", "IN");
@@ -25,7 +33,6 @@ public class LocaleTest01 {
 
         System.out.println(localeJap.getDisplayCountry(localeIndia));
         System.out.println(localeHolanda.getDisplayCountry(localeIndia));
-
 
         System.out.println(localeHolanda.getDisplayLanguage(locale));
         System.out.println(localeHolanda.getDisplayLanguage());

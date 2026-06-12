@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WildcardTest02 {
+    /*
+    Algo interessante nesse código é o ? como parâmetro, ele significa "algum tipo desconhecido", ou seja, pode ser
+    uma lista de Strings, Integers, Characters, etc.
+    Mas ele pode restringir, usando "extends" ou "super" (herança)
+     */
     static void main() {
         List<Gato> gatos = List.of(new Gato() , new Gato());
         List<Papagaio> papagaios = List.of(new Papagaio(), new Papagaio());

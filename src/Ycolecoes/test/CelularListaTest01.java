@@ -6,6 +6,9 @@ import java.util.List;
 
 
 public class CelularListaTest01 {
+    /*
+    Testando algumas funcionalidades de List
+     */
     static void main() {
 
 

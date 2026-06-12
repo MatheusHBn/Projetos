@@ -5,6 +5,10 @@ import java.util.Collections;
 import java.util.List;
 
 public class ListasSortTest01 {
+    /*
+    Sort, e utilizado para ordenar uma lista com o equals (dependendo de como você configura o equals),
+    apenas usando o Collections.sort(); (mais pra frente veremos outros jeitos de organizar uma lista)
+     */
     static void main() {
         List<String> perifericos = new ArrayList<>(20);
         perifericos.add("Mouse");

@@ -6,6 +6,10 @@ import Zgenerics.dominio.Carro;
 import java.util.List;
 
 public class RentalService <T> {
+    /*
+    Aqui é o Generics sendo usado na prática, perceba que não seria nada escalável sem o metodo generics, pois a cada
+    novo objeto, você teria que criar um metodo inteiro só para um objeto
+     */
     private List<T> objetosDisponveis;
 
     public RentalService(List<T> objetosDisponveis){

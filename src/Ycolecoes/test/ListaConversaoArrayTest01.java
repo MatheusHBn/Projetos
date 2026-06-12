@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ListaConversaoArrayTest01 {
+    /*
+    É possível converter uma lista para um array, e array para lista
+     */
     static void main() {
         List<Integer> numeros = new ArrayList<>();
         numeros.add(2);

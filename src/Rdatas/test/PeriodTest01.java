@@ -6,6 +6,12 @@ import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 public class PeriodTest01 {
+    /*
+    Period, usado para representar um intervalo de tempo baseado em datas.
+    Mas aí vem a pergunta: "Mas o Durantion já não faz isso?", fazer ele faz, mas a diferença é que Duration
+    usa períodos pequenos, como horas e minutos, já o Period trabalha com anos, meses e dias
+    Funciona que nem o Duration, mas a diferença é que você usa anos, meses e dias
+     */
     static void main() {
         LocalDate agora = LocalDate.now();
         LocalDate agoraDepoisDoisAnos = LocalDate.now().plusYears(2).plusMonths(4);

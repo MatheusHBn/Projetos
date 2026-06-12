@@ -5,6 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class SimpleDateFormatTest01 {
+    /*
+    SimpleDateForamt, usado para converter data para texto e texto para data, tipo o DateFormat
+     */
     static void main() {
         String mascara = "'Amsterdam' dd 'de' MMM 'de' yyyy";
         SimpleDateFormat sdf = new SimpleDateFormat(mascara);

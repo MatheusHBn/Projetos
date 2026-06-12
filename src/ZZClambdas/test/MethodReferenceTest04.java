@@ -9,6 +9,9 @@ import java.util.function.BiFunction;
 import java.util.function.Supplier;
 
 public class MethodReferenceTest04 {
+    /*
+    E o quarto tipo é: Referência a um construtor, esse substitui o " = new X();" por "X::new"
+     */
     static void main() {
         Supplier<ProcessadoresComparators> newProcessadoresComparator = ProcessadoresComparators::new;
         ProcessadoresComparators processadoresComparators = newProcessadoresComparator.get();

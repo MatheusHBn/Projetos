@@ -1,6 +1,9 @@
 package Qstring.test;
 
 public class StringTest01 {
+    /*
+    Aqui é um teste de mémoria entre uma "string" inicializada de maneiras diferentes
+     */
     static void main() {
         String nome = "Matheus";
         String nome2 = "Matheus";

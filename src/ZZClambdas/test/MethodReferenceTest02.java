@@ -7,6 +7,9 @@ import java.util.List;
 
 // Jeito de fzr sem métodos estáticos
 public class MethodReferenceTest02 {
+    /*
+    Aqui é um jeito de fazer sem metodos estáticos
+     */
     static void main() {
         ProcessadoresComparators processadoresComparators = new ProcessadoresComparators();
         List<Processadores> processadoresList = new ArrayList<>(List.of(

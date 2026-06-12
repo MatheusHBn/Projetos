@@ -7,6 +7,18 @@ import java.util.List;
 
 // Jeito de fzr com métedos estáticos
 public class MethodReferenceTest01 {
+    /*
+    Lembra dos Lambdas (óbvio que sim), imagina um lambda melhorado, é uma forna mais curta de escrever
+    lambdas, ao invés de você chamar um metodo com lambda, você referencia esse metodo diretamente usando ::
+
+    A sintaxe é um pouco mais confusa que o lambda, mas não é difícil: Classe::metodo ou objeto:: metodo
+
+    Só pode ser usado quando o lambda chama aoenas um metodo, exemplo:
+    texto -> texto.length();
+    String::length
+
+    Existem 4 tipos de Method Reference, que é esse primeiro, referência a métodos estáticos
+     */
     static void main() {
         List<Processadores> processadoresList = new ArrayList<>(List.of(
                 new Processadores("Ryzen 5", "3500X"),

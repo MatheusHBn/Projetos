@@ -6,6 +6,13 @@ public class LeituraDoTeclado {
     static void main() {
         // Basicamente era pra fazer um programa para responder sim ou não em alguma condição específica
 
+        /*
+       Scanner, scanner é um jeito de você interagir com o usuário, da pra você perguntar coisas,
+       não precisa mudar valores no código, etc
+       Nesse scanner, eu usei a lógica que, toda vez que a pergunta iniciar com uma vogal,
+       tanto maiúscula e minúscula, o programa responderá não
+         */
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Eu sou um programa para responder perguntas");
 

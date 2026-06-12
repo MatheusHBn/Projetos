@@ -8,6 +8,12 @@ import java.util.List;
 import java.util.Optional;
 
 public class StreamTest06 {
+    /*
+    Outras Streams interessantes, AnyMatch, AllMatch e NoneMatch:
+    AnyMatch = verifica se pelo menos um elemento atende a condição;
+    allMatch = verifica se todos atendem;
+    NoneMatch = verifica se nenhum atende.
+     */
     static void main() {
         System.out.println(listJogo.stream().anyMatch(lj -> lj.getPrice() > 12));
         System.out.println(listJogo.stream().allMatch(lj -> lj.getPrice() > 5));

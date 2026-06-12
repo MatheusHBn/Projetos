@@ -8,6 +8,11 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class ComportamentoPorParametroTest02 {
+    /*
+    Esse é um código bem mais encurtado e sai com o mesmo output do anterior, mas esse código só leva
+    em consideração Carros como objeto, e se o cliente quiser filtrar barcos, motos, etc?
+    Ai entra o Generics
+     */
 
     static void main() {
     }

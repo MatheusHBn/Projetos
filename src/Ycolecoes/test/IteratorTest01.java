@@ -7,6 +7,17 @@ import java.util.Iterator;
 import java.util.List;
 
 public class IteratorTest01 {
+    /*
+    Iterator, ele é um dois jeitos de percorrer uma coleção, pois ele tem um jeito padrão de fazer isso, e funciona pra
+    ticamente em qualquer coleção
+    Ele tem alguns métodos principais, que são:
+    1- HasNext(); = verifica se tem proximo elemento
+    2- next(); = retorna o proximo elemento
+    3- remove(); = remove o elemento que tem na coleção (E não, não é bom usar o remove() no for, porque ele vai dar uma
+    exception, porque a coleção foi modificada enquanto ela era percorrida).
+
+    Ele é mais utilizado em Sets, já que eles não possuem índice.
+     */
     static void main() {
         List<Perifericos> perifericos = new ArrayList<>(20);
         perifericos.add(new Perifericos( 3L,"Mouse", 922.5, 0));

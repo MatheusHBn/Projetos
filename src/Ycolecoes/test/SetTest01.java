@@ -7,6 +7,10 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class SetTest01 {
+    /*
+    Set, é uma coleção que não permite elementos duplicados, não possuí indice e a ordem depende da implementação
+    as implementações principais são HashSet, LinkedHashSet e TreeSet
+     */
     static void main() {
         Set<Perifericos> perifericos = new LinkedHashSet<>();
         perifericos.add(new Perifericos( 3L,"Mouse", 922.5, 0));

@@ -3,6 +3,10 @@ package Sformatacao.test;
 import java.util.Locale;
 
 public class LocalTest02 {
+    /*
+    Essa parte de formatação, é literalmente o nome, é pra falar sobre a formatação de números, moeda
+    data, data no computador, etc.
+     */
     static void main() {
         System.out.println(Locale.getDefault());
         String[] isoCountries = Locale.getISOCountries();

@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class ComportamentoPorParametroTest03 {
+    /*
+    Esse é um código que filtra qualquer carro, barco etc
+     */
 
      // basicamente isso foi pra mostrar que independente de qualquer parametro que for passado,
      // o código vai funcionar normal, contendo a cor e ano do carro e suas especificaçõe

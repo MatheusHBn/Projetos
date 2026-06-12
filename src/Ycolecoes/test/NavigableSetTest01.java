@@ -23,6 +23,10 @@ class PerifericoComparador implements Comparator<Perifericos>{
 }
 
 public class NavigableSetTest01 {
+    /*
+    NavigableSet, bem parecida com o NavigableMap, a diferença pro Set é que ela permite navegar pelos elementos ordenados
+    de resto, é igual ao NavigableMap, ela estende SortedSet, e tem os mesmos metodos (lower() higher() etc.)
+     */
     static void main() {
         NavigableSet<Celular> set = new TreeSet<>(new CelularComparador());
         Celular celular = new Celular("AB21", "Motorola");

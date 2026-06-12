@@ -1,5 +1,12 @@
 package Gassociacao.dominio;
 
+/*
+Assosiação, é você fazer alguns objetos, e interligar eles entre si, geralmente com algum atributo,
+que ao inves de voce colocar um tipo primitivo ou uma string, você coloca o objeto em questão
+
+geralmnete não é difícil, mas dependendo do numeros do objetos, pode ser confuso
+ */
+
 public class Escola {
     private String nome;
     private Professor[] professores;

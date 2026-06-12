@@ -15,6 +15,9 @@ class PerifericosPorIdComparator implements Comparator<Perifericos> {
 }
 
 public class PerifericoSortTest01 {
+    /*
+    Aplicando o Comparator em uma situação real
+     */
     static void main() {
         List<Perifericos> perifericos = new ArrayList<>(20);
         perifericos.add(new Perifericos( 3L,"Mouse", 922.5));

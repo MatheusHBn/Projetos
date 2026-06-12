@@ -7,6 +7,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapTest02 {
+    /*
+    Aqui é um exemplo real do Map em ação, que a chave é o Consumidor, e o valor é o Periférico
+     */
     static void main() {
         Consumidor consumidor1 = new Consumidor("Matheus");
         Consumidor consumidor2 = new Consumidor("Henrique");

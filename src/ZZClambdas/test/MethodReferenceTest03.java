@@ -6,6 +6,10 @@ import java.util.function.BiPredicate;
 import java.util.function.Function;
 
 public class MethodReferenceTest03 {
+    /*
+    O segundo tipo de Method Reference é: Referência a metodo de um objeto específico
+    E o terceiro é: Referência a metodo de instância de uma classe
+     */
     static void main() {
         List<String> strings = new ArrayList<>(List.of("Matheus", "Henrique", "Thiago"));
         strings.sort(String::compareTo);

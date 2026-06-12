@@ -9,10 +9,12 @@ import java.util.List;
 import java.util.Map;
 
 public class MapTest03 {
+    /*
+    E aqui é um jeito de fazer uma lista do que o usuário comprou
+     */
     static void main() {
         Consumidor consumidor1 = new Consumidor("Matheus");
         Consumidor consumidor2 = new Consumidor("Henrique");
-
 
         Perifericos perifericos1 = new Perifericos(3L, "Mouse", 922.5);
         Perifericos perifericos2 = new Perifericos(4L, "Teclado", 123.5);

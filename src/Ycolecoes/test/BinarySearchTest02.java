@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class BinarySearchTest02 {
+  /*
+  Aqui é uma BinarySearch, na prática
+   */
     static void main() {
       PerifericosPorIdComparator perifericosPorIdComparator =  new PerifericosPorIdComparator();
         List<Perifericos> perifericos = new ArrayList<>(20);

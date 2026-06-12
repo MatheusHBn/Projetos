@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComportamentoPorParametroTest01 {
+    /*
+    Aqui é falado sobre como fazer uma programação limpa e como poupar código para ter o mesmo de um
+    código 5x maior que esse.
+    por exemplo, esse codigo é gigante, existe um metodo somente para filtrar verde, outros tipos
+    de cores e a idade do carro. Tudo isso poderia ser encurtado para um único metodo
+     */
 
     static void main() {
         System.out.println(filterGreenCar(carList));

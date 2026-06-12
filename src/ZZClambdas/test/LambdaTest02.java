@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.function.Function;
 
 public class LambdaTest02 {
+    /*
+    Aqui estão mais exemplos de lambdas, e algumas interfaces funcionais muito usadas são: Consumer, Supplier
+    Predicate, Function
+     */
     static void main() {
         List<String> strings = List.of("Matheus" , "Thiago");
         List<Integer> map = map(strings, s -> s.length());

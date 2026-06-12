@@ -7,6 +7,9 @@ import java.util.Optional;
 
 public class OptionalTest02 {
     static void main() {
+        /*
+        Aqui é um exemplo prático de como usar e porque serve o Optional
+         */
      Optional<PlacaDeVideo> placaDeVideoByModel = GPUsRepository.findByModel("3060TI");
      placaDeVideoByModel.ifPresent(placaDeVideo -> placaDeVideo.setModel("3060"));
      System.out.println(placaDeVideoByModel);

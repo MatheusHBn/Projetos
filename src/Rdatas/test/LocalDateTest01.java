@@ -7,6 +7,12 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class LocalDateTest01 {
+    /*
+    LocalDate, já vimos o LocalDateTime, mas e o LocalDate?
+
+    Ele é apenas a parte da data, então ele só guarda apenas datas, e funciona igual ao LocalDateTime
+    (tirando a parte do uso do tempo)
+     */
     static void main() {
         System.out.println(new Date());
         System.out.println(Calendar.getInstance());

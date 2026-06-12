@@ -7,6 +7,9 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class QueueTest02 {
+    /*
+    Aqui é uma Queue, na prática
+     */
     static void main() {
         Queue<Perifericos> perifericos = new PriorityQueue<>(new PerifericoComparador().reversed());
         perifericos.add(new Perifericos( 3L,"Mouse", 1500));

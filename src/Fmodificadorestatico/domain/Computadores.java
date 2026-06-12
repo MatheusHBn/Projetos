@@ -1,6 +1,12 @@
 package Fmodificadorestatico.domain;
 
 public class Computadores {
+    /*
+   Bloco de inicialização estático, inicializa apenas uma vez,usado geralmente para definir configurações
+   antes da classe ser utilizada
+     */
+
+
     private String placaVideo;
     private static int[] modulos;
 

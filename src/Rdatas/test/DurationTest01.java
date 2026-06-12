@@ -6,6 +6,11 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class DurationTest01 {
+    /*
+    Duration, é literalmente o que o nome diz, ele dá uma duração de minutos, segundos e horas, e tambem
+    compara datas
+    E ele também é da API moderna do Java
+     */
     static void main() {
         LocalDateTime agora = LocalDateTime.now();
         LocalDateTime agoraDepoisDoisAnos = LocalDateTime.now().plusYears(2);

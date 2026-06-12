@@ -1,6 +1,14 @@
 package Hheranca.dominio;
 
 public class Funcionario extends Pessoa {
+    /*
+    Outra coisa importante de dizer é que,se voce reparar, verá um "super" no construtor, o que acontece é:
+    o Java precisa saber como inicializar esse construtor, mas como a classe Funcionário é herdado a pessoa,
+    o super chama o construtor da classe pai, e executa ele
+
+    todo o construtor que for herdado twm que ter os supers da classe pai, se não, não inicializa, e o construtor
+    tambem pode ser sobreescrito com aspectos da classe funcionario que não tem em pessoa
+     */
     private double salario;
 
     static {

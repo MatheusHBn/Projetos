@@ -1,6 +1,9 @@
 package Minterfaces.dominio;
 
 public class DatabaseLoader implements DataLoader, DataRemove{
+    /*
+    E diferente da herança, você pode utilizar mais de uma inteface na sua classe
+     */
     @Override
     public void load() {
         System.out.println("Carregando dados do banco de dados");
