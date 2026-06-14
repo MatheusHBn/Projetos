@@ -50,6 +50,7 @@ public class Members {
         open = false;
         synchronized (this.emails) {
             System.out.println(Thread.currentThread().getName() + " Notifying everbody that we don't getting emails ");
+            emails.notifyAll();
         }
     }
 }
