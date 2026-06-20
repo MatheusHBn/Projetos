@@ -8,7 +8,7 @@ import java.util.List;
 
 public class IteratorTest01 {
     /*
-    Iterator, ele é um dois jeitos de percorrer uma coleção, pois ele tem um jeito padrão de fazer isso, e funciona pra
+    Iterator, ele é um dos jeitos de percorrer uma coleção, pois ele tem um jeito padrão de fazer isso, e funciona pra
     ticamente em qualquer coleção
     Ele tem alguns métodos principais, que são:
     1- HasNext(); = verifica se tem proximo elemento

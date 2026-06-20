@@ -12,12 +12,14 @@ class MapReadWrite{
     public MapReadWrite(ReentrantReadWriteLock rwl) {
         this.rwl = rwl;
     }
+
     public void put(String key, String value) {
         rwl.writeLock().lock();
         try {
             if (rwl.isWriteLocked()) {
                 System.out.printf(" %s obtain the Write Lock %n", Thread.currentThread().getName());
             }
+            map.put(key,value);
             Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -37,6 +39,12 @@ class MapReadWrite{
 
 
 public class ReetrantReadWriteTest01 {
+    /*
+    ReentrantReadWriteLock, possui dois locks, readlock() e writelock(), um para leitura e o outro para escrita, no
+    read, várias Threads podem adquirir o lock ao mesmo tempo, mas no write somente uma pode escrever, enquanto as outras
+    esperam.
+    Por isso ele é usado, já que todas podem ler, mas somente uma pode escrever
+     */
     static void main() {
         ReentrantReadWriteLock rwl = new ReentrantReadWriteLock();
         MapReadWrite mapReadWrite = new MapReadWrite(rwl);
