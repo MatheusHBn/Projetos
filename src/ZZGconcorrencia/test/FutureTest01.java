@@ -14,14 +14,21 @@ public class FutureTest01 {
     Cuidado com o uso do get(), se você usar o Executor junto com ele, você trava a sua Thread, então note que o get() e
     Executor nunca estão juntos diretamente (no mesmo metodo).
      */
-    static void main() throws ExecutionException, InterruptedException, TimeoutException {
+    static void main() {
         ExecutorService executorService = Executors.newSingleThreadExecutor();
        Future<Double> dollar = executorService.submit(() -> {
-           TimeUnit.SECONDS.sleep(12);
+           TimeUnit.SECONDS.sleep(5);
            return 4.35D;
        });
         System.out.println(doingSomething());
-        Double dollarRequest = dollar.get(3, TimeUnit.SECONDS);
+        Double dollarRequest = null;
+        try {
+            dollarRequest = dollar.get(3, TimeUnit.SECONDS);
+        } catch (InterruptedException | ExecutionException | TimeoutException e) {
+            throw new RuntimeException(e);
+        } finally {
+            executorService.shutdown();
+        }
         System.out.println("Dollar: " + dollarRequest);
         executorService.shutdown();
     }
